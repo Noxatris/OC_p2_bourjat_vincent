@@ -8,29 +8,28 @@
 body
 {
     display: flex;
+    flex-direction: column;
     font-family: 'Raleway', Arial, Helvetica, sans-serif;
+    margin: 0;
 }
 
 #bloc_page
 {
-    width: 95%;
-    margin: auto;
+    width: 100%;
 }
 
 header
 {
     display: flex;
     flex-direction: column;
-    width: 100%;
-    height: 200px;
-    padding-bottom: 200px;
-    justify-content: space-between;
+    height: 240px;
+    margin-top: 10px;
+    justify-items: center;
 }
 
-#logo
+header img
 {
-    width: 50%;
-    height: 100%;
+    width: 150px;
 }
 
 a
@@ -42,10 +41,14 @@ a
 
 #logo_inscription
 {
+    align-self: center;
+    width: 90%;
     display: flex;
     justify-content: space-between;
     align-items: center;
+    height: 50%;
 }
+
 
 #bouton_inscription a
 {
@@ -53,16 +56,26 @@ a
     color: #0065FC;
 }
 
-/* Navigation */
+
+
+
+/* ---------------
+    Navigation
+----------------*/
+nav
+{
+    justify-content: flex-end;
+}
 nav ul
 {
-    height: 50%;
+    height: 45%;
     padding-left: 0;
     list-style: none;
     display: flex;
     align-self: flex-end;
     justify-self: flex-end;
-    padding-bottom: 50px;
+    margin: auto;
+    padding-bottom: 8%;
 }
 
 nav ul li
