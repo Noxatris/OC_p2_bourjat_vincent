@@ -220,3 +220,27 @@ nav ul li a:hover{
     appearance: none;
     text-align: center;
 }
+
+/* INFO */
+.icone_info
+{
+    margin-left: 5px;
+    padding-bottom: 50px;
+}
+.icone_info i
+{
+    margin-right: 30px;
+    color: #0065FC;
+    border-radius: 50%;
+    border: 3px solid #f2f2f2;
+}
+
+/* Plus populaire */
+.conteneur_main{
+    display: flex;
+    flex-direction: column-reverse;
+}
+
+.conteneur_populaire{
+    background-color: #f2f2f2;
+}
