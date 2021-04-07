@@ -27,13 +27,38 @@
             <div id="recherche">
                 <h1>Trouvez votre hébergement pour des vacances de rêve</h1>
                 <p>En plein centre ville ou en pleine nature</p>
-                <form>
-                    <label for="contenu">
-                        <i class="fas fa-map-marker-alt"></i>
-                    </label>
-                    <input type="search" id="contenu" name="zone_recherche" value="Marseille, France">
-                    <button><i class="fas fa-search"></i></button>
-                </form>
+                <div class="conteneur_recherche">
+                    <form>
+                        <label for="contenu">
+                            <i class="fas fa-map-marker-alt"></i>
+                        </label>
+                        <input type="search" id="contenu" name="zone_recherche" value="Marseille, France">
+                        <button><i class="fas fa-search"></i></button>
+                    </form>
+                </div>
+                <div class="conteneur_filtre">
+                    <h2>Filtres</h2>
+                    <div class="conteneur_checkbox">
+                        <form>
+                            <div class="div_filtre">
+                                <input type="checkbox" id="checkbox_economique">
+                                <label for="checkbox_economique"><i class="fas fa-money-bill-wave"></i>Économique</label>
+                            </div>
+                            <div class="div_filtre">
+                                <input type="checkbox" id="checkbox_familial">
+                                <label for="checkbox_familial"><i class="fas fa-child"></i>Familial</label>
+                            </div>
+                            <div class="div_filtre">
+                                <input type="checkbox" id="checkbox_romantique">
+                                <label for="checkbox_romantique"><i class="fas fa-heart"></i>Romantique</label>
+                            </div>
+                            <div class="div_filtre">
+                                <input type="checkbox" id="checkbox_animaux">
+                                <label for="checkbox_animaux"><i class="fas fa-dog"></i>Animaux autorisés</label>
+                            </div>
+                        </form>
+                    </div>
+                </div>
                 <p>Plus de 500 logements sont disponibles dans cette ville</p>
             </div>
 
