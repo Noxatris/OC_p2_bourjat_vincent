@@ -18,6 +18,8 @@ body
     width: 100%;
 }
 
+
+/* HEADER */
 header
 {
     display: flex;
@@ -101,4 +103,14 @@ nav ul li a:hover{
     border-bottom: 5px solid #0065FC;
 }
 
+/* RECHERCHE */
 
+#contenu{
+    width: 95%;
+    margin: auto;
+}
+
+#recherche p
+{
+    font-size: 0.8em;
+}
