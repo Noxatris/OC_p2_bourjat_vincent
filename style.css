@@ -235,7 +235,7 @@ nav ul li a:hover{
     border: 3px solid #f2f2f2;
 }
 
-/* Plus populaire */
+/* Populaire */
 .conteneur_main{
     display: flex;
     flex-direction: column-reverse;
@@ -266,8 +266,8 @@ nav ul li a:hover{
 
 .info_populaire
 {
-    width: 55%;
-    font-size: 2em;
+    width: 50%;
+    font-size: 1em;
     padding-left: 5%;
     height: 100%;
     justify-content: flex-start;
@@ -278,19 +278,45 @@ nav ul li a:hover{
 }
 
 .info_populaire h3 {
-    margin-bottom: 5px;
+    margin-bottom: 10px;
 }
 
 .etoile_populaire{
-    justify-self: flex-end;
+    justify-self: flex-start;
 }
-.populaire img 
+
+.img_populaire
 {
+    width: 45%;
     border-top-left-radius: 20px;
     border-bottom-left-radius: 20px;
-    width: 40%;
-    image-rendering: auto;
+    overflow: hidden;
+    position: relative;
 }
+
+#position_image
+{
+    position: absolute;
+    top: -9999px;
+    bottom: -9999px;
+    left: -9999px;
+    right: -9999px;
+    margin: auto;
+}
+
+.titre_populaire
+{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 3em;
+    width: 90%;
+}
+
+
+
+
+/* HEBERGEMENT */
 
 .bleu
 {
