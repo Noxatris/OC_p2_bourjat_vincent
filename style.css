@@ -34,7 +34,9 @@ a
 /* HEADER */
 header
 {
-    height: 350px;
+    margin-top: 30px;
+    height: 250px;
+    margin-bottom: 100px;
 }
 
 nav
@@ -53,12 +55,18 @@ nav ul {
 nav ul li 
 {
     width: 50%;
-    height: 50%;
     display: flex;
+    margin-bottom: 20px;
+}
+
+.nav_haut
+{
+    height: 50%;
 }
 
 .nav_bas
 {
+    height: 45%;
     order: 2;
 
 }
@@ -74,13 +82,13 @@ nav ul li
     color: black;
     text-decoration: none;
     margin: auto;
-    border-bottom: 5px solid #f2f2f2;
+    border-bottom: 7px solid #f2f2f2;
 }
 
 .nav_bas__a:hover
 {
     color: #0065FC;
-    border-bottom: 5px solid #0065FC;
+    border-color: #0065FC;
 }
 
 .a_inscription
@@ -259,6 +267,7 @@ h1
     width: 90%;
     height: 300px;
     padding: 10px;
+    text-decoration: none;
     margin-bottom: 20px;
 }
 
