@@ -115,20 +115,21 @@ h1
     font-size: 3em;
 }
 
-#recherche p
+#recherche > p
 {
-    font-size: 1.5em;
+    font-size: 1.3em;
+    margin-bottom: 70px;
 }
 
 /* FORM */
 
 .conteneur_recherche form{
     display: flex;
-    height: 100px;
-    border: 1px solid #f2f2f2;
+    height: 120px;
+    border: 2px solid #f2f2f2;
     border-radius: 15px;
     font-size: 2em;
-    margin-bottom: 20px;
+    margin-bottom: 50px;
 }
 
 .conteneur_recherche form button
@@ -142,16 +143,16 @@ h1
     background-color: #f2f2f2;
     border-top-left-radius: 15px;
     border-bottom-left-radius:  15px;
-    width: 15%;
+    width: 18%;
     align-items: center;
     justify-content: center;
-    font-size: 35px;
+    font-size: 40px;
 }
 
 .conteneur_recherche form button
 {
     background-color: #0065FC;
-    width: 15%;
+    width: 18%;
     height: auto;
     text-decoration: none;
     border-radius: 15px;
@@ -161,10 +162,12 @@ h1
 }
 
 .conteneur_recherche form input{
-    width: 70%;
+    width: 64%;
     height: 100%;
     font-size: 1.2em;
-    border: 1px solid transparent;
+    font-weight: bold;
+    border: 2px solid transparent;
+    padding-left: 30px;
 }
 
 /* FILTRES */
@@ -180,8 +183,8 @@ h1
 
 .conteneur_filtre h2
 {
-    font-size: 2em;
-    margin-bottom: 20px;
+    font-size: 2.5em;
+    margin-bottom: 35px;
 }
 
 .conteneur_checkbox form
@@ -228,17 +231,37 @@ h1
 }
 
 /* INFO */
-.icone_info
+
+.conteneur_info
 {
-    margin-left: 5px;
-    padding-bottom: 50px;
+    display: flex;
+    flex-flow: row nowrap;
+    width: 100%;
+    margin-bottom: 70px;
+    font-size: 2em;
 }
-.icone_info i
+
+.conteneur_info__p
 {
-    margin-right: 30px;
-    color: #0065FC;
+    font-size: 1.3em;
+    margin-top: 0;
+    margin-bottom: 0;
+}
+.conteneur_info__i
+{
+    display: flex;
+    width: 50px;
+    height: 42px;
     border-radius: 50%;
-    border: 3px solid #f2f2f2;
+    border: 5px solid #f2f2f2;
+    margin: 0 20px 0 0;
+}
+
+.conteneur_info__i > i
+{
+    color: #0065FC;
+    font-size: 1em;
+    margin: auto;
 }
 
 /* Populaire */
@@ -256,6 +279,7 @@ h1
     padding: 10px;
     margin-bottom: 20px;
     align-items: center;
+    margin: 0 auto;
 
 }
 
