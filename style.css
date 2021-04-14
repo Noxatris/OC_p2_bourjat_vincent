@@ -340,7 +340,16 @@ h1
 
 .position_image
 {
-    width: 100%;
+    width:100%;
+    justify-self: center;
+    align-self: center;
+}
+
+.position_image_populaire
+{
+    height: 100%;
+    justify-self: center;
+    align-self: center;
 }
 
 .titre_populaire
@@ -495,3 +504,8 @@ footer
     font-size: 0.9em;
 }
 
+
+@media only screen and (min-width: 768px)
+{
+    
+}
