@@ -812,12 +812,12 @@ footer
         margin: 0 auto;
         display: flex;
         flex-flow: column wrap;
-        padding: 10px;
+        padding: 0px;
         margin-top: 10px;
         margin-bottom: 20px;
         align-items: space-between;
         justify-content: space-between;
-        height: 500px;
+        height: 600px;
     }
 
     .activite
@@ -826,7 +826,8 @@ footer
         flex-direction: column;
         background-color: white;
         border-radius: 20px;
-        width: 24%;
+        width: 23%;
+        height: 40%;
         margin-bottom: 20px;
         box-shadow: rgba(0, 0, 0, 0.15) 0px 5px 15px;
     }
@@ -835,7 +836,7 @@ footer
     {
         display: flex;
         justify-content: center;
-        height: 70%;
+        height: 80%;
         border-top-left-radius: 20px;
         border-top-right-radius: 20px;
         overflow: hidden;
@@ -843,7 +844,7 @@ footer
 
     #titre_activite
     {
-        padding-left: 5%;
+        padding-left: 3%;
     }
 
     .activite h3
@@ -855,6 +856,21 @@ footer
     .a_img_taille_L
     {
         height: 100%;
+    }
+
+    .div_img_L
+    {
+        height: 90%;
+    }
+
+    .a_img_taille_M
+    {
+        height: 52%;
+    }
+
+    .div_img_M
+    {
+        height: 80%;
     }
 
     /*-----------------------------------------------------------------------------
