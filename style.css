@@ -225,6 +225,13 @@ h1
     margin-bottom: 10px;
 }
 
+.div_filtre:hover
+{
+    background-color: #0065FC;
+    color: white;
+    border-color: #0065FC;
+}
+
 .div_filtre i {
     background-color: #DEEBFF;
     color: #0065FC;
