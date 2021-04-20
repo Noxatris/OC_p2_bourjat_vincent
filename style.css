@@ -26,7 +26,7 @@ a
     width: 100%;
 }
 
-#contenu{
+#div_main{
     width: 90%;
     margin: auto;
 }
@@ -370,14 +370,14 @@ h1
 
 .position_image
 {
-    width:100%;
+    width: 100%;
     justify-self: center;
     align-self: center;
 }
 
 .position_image_populaire
 {
-    height: 100%;
+    height: 120%;
     justify-self: center;
     align-self: center;
 }
@@ -524,6 +524,13 @@ h1
     padding-left: 15px;
 }
 
+.position_image_activite
+{
+    height: auto;
+    justify-self: center;
+    align-self: center;
+}
+
 /*-----------------------------------------------------------------------------
                                  FOOTER
 -----------------------------------------------------------------------------*/
@@ -549,9 +556,9 @@ footer a
                                                                             DESKTOP
 =============================================================================================================================================================================================
 ===========================================================================================================================================================================================*/
-@media only screen and (min-width: 1024px)
+@media only screen and (min-width: 1025px)
 {
-    #contenu{
+    #div_main{
         width: 95%;
         margin: auto;
     }
@@ -657,7 +664,7 @@ footer a
     -----------------------------------------------------------------------------*/
 
     .conteneur_recherche form{
-        width: 25%;
+        width: 27%;
     }
     
     .conteneur_recherche form label
@@ -667,15 +674,16 @@ footer a
     
     .conteneur_recherche form button
     {
-        width: 42%;
+        width: 30%;
         border-top-left-radius: 0px;
         border-bottom-left-radius: 0px;
-        font-size: 1em;
+        font-size: 1vw;
         font-weight: bold;
     }
        
     .conteneur_recherche form input{
-        width: 41%;
+        width: 53%;
+        font-size: 1vw;
     }
     
     #bouton_icone
@@ -695,6 +703,7 @@ footer a
     .conteneur_filtre
     {
         flex-direction: row;
+        font-size: 1em;
     }
 
     .conteneur_filtre > h2
@@ -718,7 +727,7 @@ footer a
         flex-flow: row nowrap;
         justify-content: flex-start;
         width: 95%;
-        height: auto;
+        height: 800px;
         margin: 0 auto 50px auto;
     }
 
@@ -727,9 +736,9 @@ footer a
         flex-direction: column;
         background-color: #f2f2f2;
         border-radius: 15px;
-        padding: 20px 0px 20px 0px;
+        padding: 0% 0px 0% 0px;
         height: 100%;
-        justify-content: space-around;
+        justify-content: flex-start;
 
     }
 
@@ -746,6 +755,7 @@ footer a
         width: 80%;
         height: 170px;
         padding: 5px;
+        margin-bottom: 9%;
         text-decoration: none;
         box-shadow: rgba(0, 0, 0, 0.15) 0px 5px 15px;
     }
@@ -759,12 +769,12 @@ footer a
     }
 
     .info_populaire p {
-        font-size: 1.1em;
+        font-size: 1.1vw;
         margin-top: 0;
     }
 
     .info_populaire h3 {
-        font-size: 1.3em;
+        font-size: 1.2vw;
         margin-top: 10px;
         margin-bottom: 10px;
     }
@@ -799,6 +809,7 @@ footer a
 
     .position_image
     {
+        height: auto;
         width:100%;
         justify-self: center;
         align-self: center;
@@ -818,6 +829,8 @@ footer a
         justify-content: space-between;
         align-items: center;
         width: 85%;
+        margin-bottom: 8px;
+        margin-top: 30px;
     }
 
     .titre_populaire > i
@@ -834,19 +847,17 @@ footer a
     {
         display: flex;
         flex-flow: row wrap;
-        margin-bottom: 20px;
-        margin-right: 5%;
         background-color: #f2f2f2;
         border-radius: 15px;
-        padding: 20px 5px 20px 5px;
-        align-content: center;
+        padding: 0% 1% 0% 1%;
         justify-content: center;
         height: 100%;
     }
 
     #section_hebergement
     {
-        width: 70%;
+        width: 67%;
+        margin-right: 3%;
     }
 
     .hebergements
@@ -855,9 +866,9 @@ footer a
         flex-direction: column;
         background-color: white;
         border-radius: 20px;
-        width: 28%;
+        width: 27%;
         height: 250px;
-        margin: 0px 15px 30px 15px;
+        margin: 0px 2% 30px 2%;
         padding: 5px;
         box-shadow: rgba(0, 0, 0, 0.15) 0px 5px 15px;
     }
@@ -867,7 +878,7 @@ footer a
         display: flex;
         justify-content: center;
         width: 100%;
-        height: 60%;
+        height: 65%;
         border-top-left-radius: 20px;
         border-top-right-radius: 20px;
         overflow: hidden;
@@ -886,7 +897,7 @@ footer a
     .info_hebergement p
     {
         margin-top: 0;
-        margin-bottom: 7px;
+        margin-bottom: 10px;
     }
 
     .info_hebergement h3
@@ -899,8 +910,9 @@ footer a
     {
         align-self: flex-start;
         width: 90%;
-        padding-left: 5px;
-        margin-bottom: 50px;
+        padding-left: 0px;
+        margin-bottom: 1%;
+        margin-top: 4%;
     }
 
     #afficher
@@ -908,8 +920,9 @@ footer a
         width: 90%;
         font-size: 1.2em;
         align-self: flex-start;
-        padding-left: 5%;
+        padding-left: 0;
         font-weight: bold;
+        margin-bottom: 5%;
     }
 
     /*-----------------------------------------------------------------------------
@@ -962,6 +975,14 @@ footer a
         font-size: 1em;
         padding-left: 15px;
     }
+
+    .position_image_activite
+    {
+        height: 100%;
+        width: auto;
+        justify-self: center;
+        align-self: center;
+    }
     
     .a_img_taille_L
     {
@@ -993,8 +1014,8 @@ footer a
         flex-direction: row;
         justify-content: flex-start;
         background: #f2f2f2;
-        padding: 20px 20px 40px 2.5%;
-        font-size: 0.9em;
+        padding: 20px 20px 40px 3.5%;
+        font-size: 1em;
     }
 
     footer > div 
@@ -1014,4 +1035,93 @@ footer a
 @media only screen and (min-width: 600px) and (max-width: 1024px)
 {
 
+    /*-----------------------------------------------------------------------------
+                                     ACTIVITE
+    -----------------------------------------------------------------------------*/
+
+    .conteneur_activite
+    {
+        width: 95%;
+        margin: 0 auto;
+        display: flex;
+        flex-flow: column wrap;
+        padding: 0px;
+        margin-top: 10px;
+        margin-bottom: 20px;
+        align-items: space-between;
+        justify-content: space-between;
+        height: 600px;
+    }
+
+    .activite
+    {
+        display: flex;
+        flex-direction: column;
+        background-color: white;
+        border-radius: 20px;
+        width: 23%;
+        height: 40%;
+        margin-bottom: 20px;
+        box-shadow: rgba(0, 0, 0, 0.15) 0px 5px 15px;
+    }
+
+    .img_activite
+    {
+        display: flex;
+        justify-content: center;
+        height: 80%;
+        border-top-left-radius: 20px;
+        border-top-right-radius: 20px;
+        overflow: hidden;
+    }
+
+    #titre_activite
+    {
+        padding-left: 3%;
+    }
+
+    .activite h3
+    {
+        font-size: 1em;
+        padding-left: 15px;
+    }
+
+    .position_image_activite
+    {
+        height: 100%;
+        width: auto;
+        justify-self: center;
+        align-self: center;
+    }
+    
+    .a_img_taille_L
+    {
+        height: 100%;
+    }
+
+    .div_img_L
+    {
+        height: 90%;
+    }
+
+    .a_img_taille_M
+    {
+        height: 52%;
+    }
+
+    .div_img_M
+    {
+        height: 80%;
+    }
+}
+
+@media only screen and (min-width: 1025px) and (max-width: 1250px)
+{
+    .position_image
+    {
+        height: 100%;
+        width: auto;
+        justify-self: center;
+        align-self: center;
+    }
 }
