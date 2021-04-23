@@ -939,61 +939,24 @@ footer a
     }
 }
 
-
-
 @media only screen and (min-width: 1025px) and (max-width: 1400px)
 {
-
-    .div_filtre
-    {
-        margin-right: 15px;
-    }
-
-    .conteneur_main{
-        display: flex;
-        flex-direction: row;
-        height: auto;
-    }
-
-    .conteneur_hebergement
-    {
-        display: flex;
-        flex-flow: row wrap;
-        background-color: #f2f2f2;
-        border-radius: 15px;
-        padding: 0% 1% 0% 1%;
-        justify-content: center;
-        height: 100%;
-    }
-
     .hebergements
     {
         height: 170px;
     }
 
-    .conteneur_populaire{
-        display: flex;
-        flex-direction: column;
-        justify-content: flex-start;
-        background-color: #f2f2f2;
-        align-items: center;
-        padding-bottom: 0px;
-        margin: 0 auto 20px auto;
-        height: 100%;
-    }
-
     .populaire
     {
         height: 110px;
+        margin-bottom: 15%;
     }
 
     .titre_populaire
     {
-        display: flex;
-        justify-content: space-between;
-        align-items: center;
         width: 85%;
         margin-bottom: 8px;
         margin-top: 0px;
+        font-size: 0.9em;
     }
 }
