@@ -134,6 +134,10 @@ h1
     font-size: 20px;
 }
 
+input:focus{
+    outline: none;
+}
+
 /* Zone de saisie */
 .barre_recherche input{
     width: 64%;
